@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="sq">
+    <meta charset="UTF">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contact Us |CampusHub</title>
+</head>
+
+<body>
+    <header>
+        <h1>Contact Us</h1>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="events.html">Eventet</a>
+            <a href="#">Clubs</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Contact Us</h2>
+
+            <p>Have a question about CampusHub?
+                <br>
+                Send us a message.
+            </p>
+
+            <form>
+                <div>
+                    <label for="name">Full name:</label>
+                    <input type="text" 
+                        required id="name" 
+                        name="name" 
+                        minLength="3" 
+                        maxLength="50"
+                    >
+                </div>
+
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" 
+                        required id="email" 
+                        name="email" 
+    
+                    >
+                </div>
+
+                <div>
+                    <label for="subject">Subject:</label>
+                    <select id="subject" name="subject" required>
+                        <option value="">Select a subject</option>
+                        <option value="events">Events</option>
+                        <option value="clubs">Clubs</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="6" required></textarea>
+                </div>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+
+    </main>
+
+
+</body>
+
+</html>
