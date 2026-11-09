@@ -1,98 +1,156 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="sq">
+
 <head>
-    <meta charset="UTF">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Events | CampusHub</title>
+
+    <title>Events - CampusHub</title>
+    <link rel="stylesheet" href="styles/styles.css">
+
 </head>
 
 <body>
+
     <header>
-        <h1>Events</h1>
-        <p>Discover events in your university.</p>
+
+        <h1>CampusHub</h1>
+
+        <p>
+            Discover events, clubs and activities on campus.
+        </p>
 
         <nav>
             <a href="index.html">Home</a>
             <a href="events.html">Events</a>
             <a href="clubs.html">Clubs</a>
             <a href="#">About</a>
-            <a href="#">Contact</a>
+            <a href="contact.html">Contact</a>
         </nav>
 
     </header>
 
     <main>
+
         <section>
-            <h2>Upcoming Events</h2>
 
-            <article>
-                <h3>Web Development Workshop</h3>
+            <h2>Featured Events</h2>
 
-                <p>Learn the basics of modern web development.</p>
+            <div class="events-list page-intro">
+                <article class="event-card">
 
-                <p>Status: <span>Open</span></p>
+                    <h3>Web Development Workshop</h3>
 
-                <button>Join Event</button>
-            </article>
+                    <p>
+                        Learn the basics of modern web development.
+                    </p>
 
-            <article>
-                <h3>Programming Club Meeting</h3>
+                    <p>
+                        Status: <span>Open</span>
+                    </p>
 
-                <p>Meet students intersted in programming.</p>
+                    <button>Join Event</button>
 
-                <p>Status: <span>Open</span></p>
+                </article>
 
-                <button>Join Event</button>
-            </article>
+                <article class="event-card">
+                    <span class="event-badge">Featured</span>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1OxHe-W7ZF1BZg86yshNBXW-_2pXF0bsZSCRfabXO-w&s=10"
+                        alt="Programming club image" class="event-image">
+                    <h3>Programming Club Meeting</h3>
+
+                    <p>
+                        Meet students interested in programming.
+                    </p>
+
+                    <p>
+                        Status: <span>Open</span>
+                    </p>
+
+                    <button>Join Event</button>
+
+                </article>
+
+                <article class="event-card">
+
+                    <h3>Career Day</h3>
+
+                    <p>
+                        Meet companies and learn about career opportunities.
+                    </p>
+
+                    <p>
+                        Status: <span>Coming Soon</span>
+                    </p>
+
+                    <button>Join Event</button>
+
+                </article>
+            </div>
+
+
         </section>
 
-        <aside>
-            <h3>Join cybersecurity event</h3>
-            <p>Please register for this upcoming event.</p>
-
-            <button>Join Event</button>
-        </aside>
-        
         <section>
+
             <h2>Event Schedule</h2>
 
             <table>
+
                 <thead>
+
                     <tr>
                         <th>Event</th>
                         <th>Date</th>
                         <th>Location</th>
                         <th>Status</th>
                     </tr>
+
                 </thead>
 
                 <tbody>
+
                     <tr>
                         <td>Web Development Workshop</td>
                         <td>15 October</td>
                         <td>Room 204</td>
                         <td>Open</td>
                     </tr>
+
                     <tr>
                         <td>Programming Club Meeting</td>
-                        <td>16 October</td>
-                        <td>Room 300</td>
+                        <td>18 October</td>
+                        <td>Room 105</td>
                         <td>Open</td>
                     </tr>
+
                     <tr>
                         <td>Career Day</td>
-                        <td>20 October</td>
-                        <td>Room 100</td>
+                        <td>22 October</td>
+                        <td>Main Hall</td>
                         <td>Coming Soon</td>
                     </tr>
+
                 </tbody>
+
             </table>
+
         </section>
+        <aside>
+            <h2>Did You Know?</h2>
+            <p>
+                Students can join multiple university clubs.
+            </p>
+        </aside>
+
     </main>
 
     <footer>
+
         <p>&copy; 2026 CampusHub</p>
+
     </footer>
 
 </body>
+
 </html>
